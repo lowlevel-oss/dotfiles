@@ -1,1 +1,1 @@
-Hyprland config
+Hyprland config.
