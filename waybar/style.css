@@ -50,7 +50,8 @@ tooltip label {
 }
 #clock {
     background-color: transparent;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 13px;
 }
 #pulseaudio{
     background-color: transparent;
