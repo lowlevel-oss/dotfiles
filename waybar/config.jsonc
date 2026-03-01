@@ -1,6 +1,8 @@
 {
     "layer": "top",
-    "margin-top":1,
+   "margin-top":4,
+   "margin-left":10,
+   "margin-right":10,
     "modules-left": ["hyprland/workspaces", "sway/mode"],
     "modules-center": ["clock"],
     "modules-right": ["network","pulseaudio"],
