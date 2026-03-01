@@ -1,17 +1,22 @@
 * {
     border: none;
     border-radius:0;
-    font-family: "SF Pro Display", Helvetica, Arial, sans-serif;
+     font-family: "JetBrainsMono Nerd Font", "SF Pro Display", sans-serif;
     font-size: 14px;
     min-height: 0;
     margin:0;
     padding:0;
 }
+
+.modules-right {
+    padding: 0 20px;
+}
 window#waybar {
-       background: rgba(0, 0, 0, 0.25);
+   background: rgb(27, 22, 32);
     border-radius: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: white;
+    border: 1px solid rgba(235, 225, 245, 0.18);
+    color: rgba(242, 237, 248, 0.95);
+    padding: 0 10px;
 }
 
 tooltip {
@@ -23,18 +28,36 @@ tooltip label {
 }
 
 #workspaces button {
-    padding: 5px 5px;
+    padding: 8px 5px;
     margin:0 2px;
     background: transparent;
     color: white;
-    border-bottom: 3px solid transparent;
+    border: none;
     transition:all 250ms ease-in-out;
+    border-radius: 40px;
 }
 #workspaces button.active{
 	min-width:40px;
+    
     transition:all 250ms ease-in-out;
 }
-
+#workspaces button:hover {
+    
+    background: rgba(255,255,255,0.08);
+}
 #clock {
     background-color: transparent;
+    font-weight: 700;
+}
+#pulseaudio{
+    background-color: transparent;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+#idle_inhibitor{
+    padding: 0 20px;
+}
+
+#cava{
+    padding: 0 20px;
 }

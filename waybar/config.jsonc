@@ -1,11 +1,11 @@
 {
     "layer": "top",
-   "margin-top":4,
+   "margin-top":3,
    "margin-left":10,
    "margin-right":10,
     "modules-left": ["hyprland/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["network","pulseaudio"],
+    "modules-right": ["idle_inhibitor","network","pulseaudio"],
     "clock": {
         "format-alt": "{:%a, %d. %b  %H:%M}"
     },
@@ -31,15 +31,13 @@
 },
 "network": {
     "interface": "enp5s0",
-    "format": "{ifname}",
-    "format-wifi": "{essid} ({signalStrength}%) ",
-    "format-ethernet": "{ipaddr}/{cidr} 󰊗",
-    "format-disconnected": "", //An empty format will hide the module.
-    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
-    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-    "tooltip-format-ethernet": "{ifname} ",
-    "tooltip-format-disconnected": "Disconnected",
-    "max-length": 50
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "  Connected",
+    "format-disconnected": "直  Disconnected",
+    "tooltip-format": "{ifname} → {ipaddr}",
+    "tooltip-format-wifi": "{essid}\nSignal: {signalStrength}%\nIP: {ipaddr}",
+    "tooltip-format-ethernet": "Ethernet\nIP: {ipaddr}\nGateway: {gwaddr}",
+    "max-length": 30
 },
 "hyprland/workspaces": {
 	"format": "{icon}",
@@ -51,7 +49,12 @@
              "*": 5, // 5 workspaces by default on every monitor
              "HDMI-A-1": 3 // but only three on HDMI-A-1
        }
+},
+"idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": "",
+        "deactivated": ""
+    }
 }
-
-
 }
