@@ -3,9 +3,9 @@
    "margin-top":3,
    "margin-left":10,
    "margin-right":10,
-    "modules-left": ["hyprland/workspaces", "sway/mode"],
+    "modules-left": ["image#album-art","hyprland/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor","network","pulseaudio"],
+    "modules-right": ["tray","idle_inhibitor","network","pulseaudio"],
     "clock": {
         "format-alt": "{:%a, %d. %b  %H:%M}"
     },
@@ -56,5 +56,17 @@
         "activated": "",
         "deactivated": ""
     }
+},
+"tray": {
+    "icon-size": 21,
+    "spacing": 10,
+    "icons": {
+        "TelegramDesktop": "/home/bat/logo/Logo.png"
+    }
+},
+"image#album-art": {
+	"path": "/home/bat/logo/arch2.png",
+	"size": 20,
+	"interval": 5
 }
 }

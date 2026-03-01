@@ -11,6 +11,9 @@
 .modules-right {
     padding: 0 20px;
 }
+.modules-left{
+    padding: 0 20px;
+}
 window#waybar {
    background: rgb(27, 22, 32);
     border-radius: 40px;
@@ -55,9 +58,5 @@ tooltip label {
     margin: 0 10px;
 }
 #idle_inhibitor{
-    padding: 0 20px;
-}
-
-#cava{
     padding: 0 20px;
 }
