@@ -33,7 +33,7 @@
     "interface": "enp5s0",
     "format-wifi": "  {signalStrength}%",
     "format-ethernet": "  Connected",
-    "format-disconnected": "直  Disconnected",
+    "format-disconnected": "Disconnected",
     "tooltip-format": "{ifname} → {ipaddr}",
     "tooltip-format-wifi": "{essid}\nSignal: {signalStrength}%\nIP: {ipaddr}",
     "tooltip-format-ethernet": "Ethernet\nIP: {ipaddr}\nGateway: {gwaddr}",
