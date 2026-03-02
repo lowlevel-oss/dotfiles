@@ -62,3 +62,7 @@ tooltip label {
 #idle_inhibitor{
     padding: 0 20px;
 }
+#cava {
+    font-size: 5px;      /* controls height of the bars */ /* controls spacing/width between bars */
+    padding: 0 10px;
+}
