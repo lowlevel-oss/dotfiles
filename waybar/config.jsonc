@@ -5,7 +5,7 @@
    "margin-right":10,
     "modules-left": ["image#album-art","hyprland/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["tray","idle_inhibitor","network","pulseaudio"],
+    "modules-right": ["tray","idle_inhibitor","network","pulseaudio","image#album-art2"],
     "clock": {
         "format-alt": "{:%a, %d. %b  %H:%M}"
     },
@@ -65,8 +65,14 @@
     }
 },
 "image#album-art": {
-	"path": "/home/bat/logo/arch2.png",
+	"path": "/home/bat/logo/arch1.png",
 	"size": 18,
 	"interval": 5
+},
+"image#album-art2": {
+	"path": "/home/bat/logo/power1.png",
+	"size": 14,
+	"interval": 5,
+    "on-click":"wlogout"
 }
 }
