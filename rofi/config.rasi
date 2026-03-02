@@ -9,3 +9,9 @@ entry {
     placeholder: "Search";
     cursor: pointer;
 }
+
+element{
+    orientation:horizontal;
+    children:[element-text,element-icon];
+    spacing:5px;
+}
