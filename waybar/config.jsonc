@@ -71,7 +71,7 @@
 },
 "image#album-art2": {
 	"path": "/home/bat/logo/power1.png",
-	"size": 14,
+	"size": 17,
 	"interval": 5,
     "on-click":"wlogout"
 }
