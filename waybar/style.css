@@ -15,7 +15,7 @@
     padding: 0 20px;
 }
 window#waybar {
-   background: rgb(27, 22, 32);
+   background: #0E0E13;
     border-radius: 40px;
     border: 1px solid rgba(235, 225, 245, 0.18);
     color: rgba(242, 237, 248, 0.95);
@@ -62,7 +62,4 @@ tooltip label {
 #idle_inhibitor{
     padding: 0 20px;
 }
-#cava {
-    font-size: 5px;      /* controls height of the bars */ /* controls spacing/width between bars */
-    padding: 0 10px;
-}
+
