@@ -55,10 +55,10 @@ window {
     transparency: "real";
     padding: 10px;
     border:  0px;
-    border-radius: 10px;
-    width:20%;
+    border-radius: 20px;
+    width:25%;
     color: @magenta;
-    background-color: @transparent;
+    background-color: rgba(30,30,46,0.65);
     spacing: 0;
     children:  [mainbox];
     orientation: horizontal;
@@ -81,10 +81,10 @@ message {
 inputbar {
     color: #f6f6fb;
     padding: 11px;
-    background-color: @tlightblack;
-    border: 2px 2px 2px 2px;
+    background-color: #262633;
+    border: 1px;
     border-radius:  15px 15px 0px 0px;
-    border-color: @foreground;
+    border-color: #35333C;
     font: "Source Code Pro 18";
 }
 entry,prompt,case-indicator {
@@ -97,27 +97,30 @@ prompt {
 listview {
     padding: 8px;
     border-radius: 0px 0px 15px 15px;
-    border-color: @foreground;
+    border-color: #35333C;
     border: 0px 2px 2px 2px;
-    background-color: #1c1c1ccc;
+    background-color: rgba(38, 38, 51, 0.7);
     dynamic: false;
     lines: 10;
 }
 element {
-    padding: 8px;
+    padding: 12px;
+    spacing:14px;
     vertical-align: 0.5;
     border: none;
     border-radius: 4px;
     background-color: transparent;
-    color: @blue;
+    color: white;
     font:inherit;
 }
 element-text {
+    padding:0 10px;
     background-color: inherit;
     text-color:       inherit;
+    vertical-align: 0.5;
 }
 element selected.normal {
-    background-color: white;
+    background-color: #35333C;
 }
 element normal active {
     foreground: @lightblue;
@@ -179,4 +182,7 @@ error-message {
     border-color: darkred;
     border: 2px;
     padding: 1em;
+}
+element-icon {
+    size: 42px;
 }
