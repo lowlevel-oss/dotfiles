@@ -7,7 +7,8 @@
     "modules-center": ["clock"],
     "modules-right": ["tray","idle_inhibitor","network","pulseaudio","image#album-art2"],
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+        "format":"{:%I:%M %p}",
+         "format-alt": "{:%a, %d. %b  %I:%M %p}"
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
@@ -55,13 +56,6 @@
     "format-icons": {
         "activated": "",
         "deactivated": ""
-    }
-},
-"tray": {
-    "icon-size": 21,
-    "spacing": 10,
-    "icons": {
-        "TelegramDesktop": "/home/bat/logo/Logo.png"
     }
 },
 "image#album-art": {
