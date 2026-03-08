@@ -1,1 +1,1 @@
-Hyprland config.
+Hyprland,use with caution !!!
