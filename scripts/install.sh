@@ -1,5 +1,5 @@
 sudo pacman -Syu
-sudo pacman -S nautilus rofi anki hyprpicker wl-clipboard code telegram-desktop discord waybar hyprpaper hyprpolkitagent hypridle starship wlogout fastfetch grim
+sudo pacman -S nautilus rofi anki hyprpicker wl-clipboard code telegram-desktop discord waybar hyprpaper hyprpolkitagent hypridle starship wlogout fastfetch grim mako
 
 sudo rm ~/.config/starship.toml
 
