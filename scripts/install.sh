@@ -5,7 +5,7 @@ sudo rm ~/.config/starship.toml
 
 ln -sfn ~/dotfiles/hyprland/* ~/.config/hypr
 ln -s ~/dotfiles/starship/* ~/.config/
-ln -sfn ~/dotfiles/kitty ~/.config/kitty
+ln -sfn ~/dotfiles/kitty/* ~/.config/kitty
 ln -sfn ~/dotfiles/fastfetch ~/.config/fastfetch
 ln -sfn ~/dotfiles/rofi ~/.config/rofi
 ln -sfn ~/dotfiles/wlogout ~/.config/wlogout
