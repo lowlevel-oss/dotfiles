@@ -1,9 +1,9 @@
+set -e
 sudo pacman -Syu
-sudo pacman -S nautilus rofi anki hyprpicker wl-clipboard code telegram-desktop discord waybar hyprpaper hyprpolkitagent hypridle starship wlogout fastfetch grim mako hyprlock ttf-meslo-nerd-font-powerlevel10k ttf-jetbrains-mono-nerd slurp rofi-emoji bluemanager heroic-games-launcher steam mpv wtype
-
+sudo pacman -S --needed nautilus rofi anki hyprpicker wl-clipboard code telegram-desktop discord waybar hyprpaper hyprpolkitagent hypridle starship wlogout fastfetch grim mako hyprlock ttf-jetbrains-mono-nerd slurp rofi-emoji blueman heroic-games-launcher steam mpv wtype
 sudo rm ~/.config/starship.toml
 
-ln -sfn ~/dotfiles/hyprland ~/.config/hypr
+ln -sfn ~/dotfiles/hyprland/* ~/.config/hypr
 ln -s ~/dotfiles/starship/* ~/.config/
 ln -sfn ~/dotfiles/kitty ~/.config/kitty
 ln -sfn ~/dotfiles/fastfetch ~/.config/fastfetch
@@ -17,6 +17,7 @@ fish -c 'set -U fish_greeting "Welcome back ⚡"'
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
 
+cd ~
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru || exit 1
