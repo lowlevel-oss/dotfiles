@@ -1,6 +1,6 @@
 set -e
 sudo pacman -Syu
-sudo pacman -S --needed nautilus rofi anki hyprpicker wl-clipboard code telegram-desktop discord waybar hyprpaper hyprpolkitagent hypridle starship wlogout fastfetch grim mako hyprlock ttf-jetbrains-mono-nerd slurp rofi-emoji blueman heroic-games-launcher steam mpv wtype
+sudo pacman -S --needed nautilus rofi anki hyprpicker wl-clipboard code telegram-desktop discord waybar hyprpaper hyprpolkitagent hypridle starship wlogout fastfetch grim mako hyprlock ttf-jetbrains-mono-nerd slurp rofi-emoji blueman heroic-games-launcher steam mpv wtype yazi
 sudo rm ~/.config/starship.toml
 
 ln -sfn ~/dotfiles/hyprland/* ~/.config/hypr
